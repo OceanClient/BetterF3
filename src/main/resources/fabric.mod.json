@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "oceanclient",
+  "version": "${version}",
+  "name": "betterf3",
+  "description": "Press Right Shift to open the betterf3 menu. Rename it and recolor it from the settings gear.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.oceanclient.OceanClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
